@@ -1,0 +1,29 @@
+input{
+    box-sizing:border-box
+}
+
+.autocomplete-container{
+    position: relative;
+}
+
+.autocomplete-input{
+    width: 100%;
+    padding: 0.5em;
+    font-size: 16px;
+}
+
+.autocomplete-option-container{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    max-height: 300px;
+}
+
+.autocomplete-option{
+    padding: 0.5em;
+}
+
+.autocomplete-option:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
