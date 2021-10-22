@@ -41,7 +41,7 @@ I'm familiar with that name, I've probably already used it but I can't come up w
 ### What's the difference in handling exceptions in promises, callbacks and async...await.
 
 Async/Await is just a sugar syntax for returning promises:
-
+ ```
 async fn(num) {
     if(typeof num !== 'number'){
         throw new Error("Not a number");
@@ -49,9 +49,11 @@ async fn(num) {
 
     return num+1;
 }
+```
 
 is exactly the same thing as:
 
+```
 fn(num){
     return new Promise((resolve, reject) => {
         if(typeof num !== 'number'){
@@ -61,6 +63,7 @@ fn(num){
         resolve(num+1);
     })
 }
+```
 
 A callback is a function that's passed by argument and ran after a determined async function has finished.
 
