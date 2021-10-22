@@ -38,6 +38,13 @@
 }
 
 .app-container{
-  height: 100vh;
-  background-color: blue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

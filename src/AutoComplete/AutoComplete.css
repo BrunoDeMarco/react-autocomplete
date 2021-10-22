@@ -20,6 +20,7 @@ input{
     overflow: hidden;
     overflow-y: auto;
     z-index: 2;
+    border: 1px solid #f5f5f5;
 }
 
 .autocomplete-option{

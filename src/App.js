@@ -1,14 +1,16 @@
 import "./App.css";
-import AutoComplete from './AutoComplete/AutoComplete';
+import AutoComplete from "./AutoComplete/AutoComplete";
 import { FunctionalAutoComplete } from "./AutoComplete/FunctionalAutoComplete";
 
 function App() {
   return (
-    <div className={'app-container'}>
-      <div style={{width: '300px'}}>
+    <div className={"app-container"}>
+      <div className={"grid-item"}>
+        Class Component:
         <AutoComplete />
       </div>
-      <div style={{width: '300px'}}>
+      <div className={"grid-item"}>
+        Functional Component:
         <FunctionalAutoComplete />
       </div>
     </div>
