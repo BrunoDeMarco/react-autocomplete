@@ -3,7 +3,7 @@ import AutoComplete from './AutoComplete';
 
 function App() {
   return (
-    <div>
+    <div className={'app-container'}>
       <div style={{width: '300px'}}>
         <AutoComplete />
       </div>

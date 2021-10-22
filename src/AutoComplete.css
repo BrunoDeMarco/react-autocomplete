@@ -17,6 +17,8 @@ input{
     background-color: #FFFFFF;
     position: absolute;
     max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .autocomplete-option{
